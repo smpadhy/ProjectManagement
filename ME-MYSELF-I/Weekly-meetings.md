@@ -27,6 +27,9 @@
 * Review of the new UI implemented so far
 * Discussion on the consistent modules API
 
+#### What else did you do?
+* Learning Machine Learning from lecture notes/online tutorial
+
 --------
 
 ## Template (Copy template, add date link on top, and replace text, newest first)
