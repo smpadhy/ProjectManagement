@@ -1,14 +1,16 @@
-# Where's Waldo
+# Where's Smruti
 
-This file is a big list of dates so you can track where **[WALDO]** is as s/he zooms all over the place!
+This file is a big list of dates so you can track where **[Smruti]** is.
 
 ## Table of contents
 
-**20XX**
+**2017**
 
-* [Month](#Month-20XX)
+* [September](#september-2017)
+* [October](#october-2017)
 
-### Month 20XX
+### September 2017
 
 Date | Day   | City, Country          | Event
 ---- | ----- | ---------------------- | -----
+29-2(oct)|Fri-Mon|Chicago, USA|Vacation
