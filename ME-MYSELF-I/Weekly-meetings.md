@@ -1,6 +1,45 @@
 # Weekly Meetings
+* [29 September 2017](#date-29th-september-2017)
 * [22 September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
+
+### Date: 29th September 2017
+#### What did I achieve?
+* Worked on the NDA form edit feature in Brainverse:
+  * Reviewed and understood the alpaca form designer demo code
+  * Adapted the demo code so we can use it within brainverse for NDA form editor
+  * Integrated form editor with the NDA data dictionary import interface
+  * Clear and Preview button button were reimplemented
+  * Form generation module updated, specifically, using NDA field id as form field id and fixed radio button generation
+  * Converted all 'select box' to radio buttons
+  * code clean up
+* Fixed nidm-term-search code to show DICOM owl file.
+  * Did code clean up
+* Explored Mavo to be used for nidm-term-search
+* Attended NIDM, NIDM-W and Repronim meetings
+* Meeting with Satra on form edit feature and future steps
+
+#### What did I struggle with?
+* Understanding alpaca form designer demo code. The reason being: no local storage or global schema json were directly updated when any change/edit to the schema or options happens. The editors (schema, options, data, code) were updated with the internal json object (_schema, _options) and later the global schema and option objects were updated.
+* nidm-term-search prefix - the dicom owl file when loaded to rdfstore was giving invalid IRI. This led me to think that the incorrect prefix for dicom was due to this. However, later found that there was a bug converting the IRI to prefix format.
+
+#### Who helped me this week?
+* Satra helped in reviewing the form edit feature and suggested next steps
+* Satra pointed out that nidm-term-search prefix error may be due to some other reason rather than IRI invaid error
+* Karl, Camille, Satra discussion on IRI invalid error and helped me understand the specification.
+
+#### Who did I help this week?
+* Tried to help Karl with IRI invalid error and initiated the discussion on this.
+
+#### What would I like to work on next week?
+* Form Edit feature
+* Pushing the changes to github term repo
+* Mavo
+* Data crawler
+
+#### What else did I do?
+* Learning advanced HTML/CSS/Javascript from online courses
+* Vacation on Fri (29th Sept 2017) and Mon(2nd Oct 2017)
 
 ### Date: 22nd September 2017
 #### What did you achieve?
