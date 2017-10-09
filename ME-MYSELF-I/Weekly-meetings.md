@@ -1,7 +1,43 @@
 # Weekly Meetings
-* [29 September 2017](#date-29th-september-2017)
-* [22 September 2017](#date-22nd-september-2017)
+* [6th October 2017](#date-6th-october-2017)
+* [29th September 2017](#date-29th-september-2017)
+* [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
+
+### Date: 6th October 2017
+#### What did I achieve?
+* Worked on the NDA Form Editor
+  * Added tansformation method to convert form edits to NDA data model and saved locally as json
+  *  Using Github API v3, added relevant methods in controller and routes to:
+    * [fork](https://developer.github.com/v3/repos/forks/#create-a-fork) [ReproNim/ni-terms](https://github.com/ReproNim/ni-terms) repository to user github account
+    * [create a file](https://developer.github.com/v3/repos/contents/#create-a-file) in the forked repo and push the curated form (NDA data model) into the file with a default commit message.
+    * [create a pull request] (https://developer.github.com/v3/pulls/#create-a-pull-request) from the forked repo
+    * [get the curated data dictionaries list in the ni-terms repo](https://developer.github.com/v3/repos/contents/#get-contents) and updates the select drop down box with new curated files
+    * get the content of the curated file selected, save it and populate the terms in the table for selection.
+  * Made changes to the UI - added another select box select between NDA and Repronim Curated NDA forms
+* Had meeting -  NIDM-W
+* Looked into the details of Mavo github backend implementation
+* Started looking into the RedCap to NDA exporter by Hauke.
+
+### What did I struggle with
+* Github API for create file: The content has to be base64 encoded in the body of the request. Even after the content is base64 encoded, in the github after push, the indentation in a JSON file was not being preserved. Later released that JSON.stringify has an optional parameter to set the indentation.
+* Refreshing the select box list:  While using github contents api to obtain the files from the ni-terms repo, one has to wait till all individual files downloaded, extracting relevant information to send as reponse to the ajax call from the UI. It took me a while to figure out the interplay of request and promise api to make it work.
+* Names and ids: I am still trying to figure out the best way to name the curated files. As per discussionwith Satra earlier, we could use 'username/title of the file' which I am currently using. However, in the interface we provide options for user to assign different name/title to the form. The 'shortname', which is unique to NDA data dictionaries is carried over to the curated form. So, need to assign new shortName to curated form to uniquely identify the form. As Satra mentioned, the shortname has a version number associated with it. So, still thinking on how to version the curated forms.
+* Merging data-dictionaries list from three sources (NDA, curated forms from github, local): Still trying to figure out the best way. This is related to the previous problem of assigning/versioning the curated forms. In addition, the forms from NDA has some extra fields which we didn't carried over to curated forms in the earlier implementation. So, some modification to model for the curated forms required
+* Conversion form edits to NDA model: To decide which field of a term can be carried over directly to the curated term and if a new term is added, how to assign ids and names.
+
+#### Who helped me ths week?
+
+#### Who did I help this week?
+
+#### What would I like to work on next week?
+* Finish, polishing, testing, packaging  NDA Editor module
+* Start working on project planner
+* Mavo for term editor
+
+#### Where do I need help from Satra
+* Reviewing and Testing NDA editor
+* Enable Mathias to give me access to RedCap database
 
 ### Date: 29th September 2017
 #### What did I achieve?
