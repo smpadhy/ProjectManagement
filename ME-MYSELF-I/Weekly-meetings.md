@@ -15,7 +15,7 @@
     * [get the curated data dictionaries list in the ni-terms repo](https://developer.github.com/v3/repos/contents/#get-contents) and updates the select drop down box with new curated files
     * get the content of the curated file selected, save it and populate the terms in the table for selection.
   * Made changes to the UI - added another select box select between NDA and Repronim Curated NDA forms
-* Had meeting -  NIDM-W
+* Had meeting -  NIDM-W, Repronim Training
 * Looked into the details of Mavo github backend implementation
 * Started looking into the RedCap to NDA exporter by Hauke.
 
@@ -39,6 +39,10 @@
 * Reviewing and Testing NDA editor
 * Enable Mathias to give me access to RedCap database
 
+#### What else did I do?
+* Learnig Javascript
+* Vacation (2nd Oct 2017)
+
 ### Date: 29th September 2017
 #### What did I achieve?
 * Worked on the NDA form edit feature in Brainverse:
@@ -52,7 +56,7 @@
 * Fixed nidm-term-search code to show DICOM owl file.
   * Did code clean up
 * Explored Mavo to be used for nidm-term-search
-* Attended NIDM, NIDM-W and Repronim meetings
+* Attended NIDM, NIDM-W and Repronim-all call meetings
 * Meeting with Satra on form edit feature and future steps
 
 #### What did I struggle with?
