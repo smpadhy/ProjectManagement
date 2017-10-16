@@ -1,8 +1,49 @@
 # Weekly Meetings
+* [13th October 2017](#date-13th-october-2017)
 * [6th October 2017](#date-6th-october-2017)
 * [29th September 2017](#date-29th-september-2017)
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
+
+### Date: 13th October 2017
+#### What did I achieve?
+* Worked on NDA Editor
+  * Added options to source select box - NDA, Repronim curated, user forked repo, local
+  * Added corresponding routes and implementation for user forked repo and local to obtain the curated forms
+  * Added refresh link to refresh the NDA editor page
+  * Fixed pull request error. Added a setTimeout before creating a file in the forked repo.
+  * Finished the first version of the NDA Editor, packaged it and released it.
+  * Link to the [App](https://www.dropbox.com/s/c918cszw6oiaubr/BrainVerse-darwin-x64.zip?dl=0)
+  * Link to the [demo](https://www.dropbox.com/s/8nhcjxgx8do7tnt/nda-editor.mov?dl=0)
+  * Refactored the code and cleaned up
+* Started working on Experiment Planner
+* Started working on NIDM-Worflow pyNIDM requirement class
+* Had meetings - NIDM, NIDM-Workflow
+* Had meeting with Satra
+* Agreed for SOBP abstract submission for DK
+* Attended first 1 hr of Neuropsych/Behavioral Assessments Training
+
+#### What did I struggle with?
+* Looking into jqWidgets kanban and core minified code, unminified them and trying to access the amount of effort require to modify the header of the column to allow extra icons.
+* Considering the option to design my own experiment planner css class given the limited flexibility of jqWidgets Kanban board.
+
+#### Who helped me this week?
+* Satra suggested some modifications with NDA Editor - having four sources
+* Had Discussions on - how to infer two curated forms used for data acquistions are the same based on hash, abstract submission to OHBM, IEEE Big Data, generating GUID for NDA, automatic generation of constants.py in pyNIDM, creating pyNIDM workflow OWL file
+
+#### Who did I help this week?
+
+#### What would I like to work on next week?
+* Experiment planner - editing column header, delete column, add and edit items
+* SOBP abstract submission
+
+#### Where do I need help from Satra
+* SOBP abstract submission
+
+#### What else did I do?
+* Learning advanced Javascript
+* Learning Machine Learning
+* Meeting with Software-Defined Networking Team
 
 ### Date: 6th October 2017
 #### What did I achieve?
@@ -11,7 +52,7 @@
   *  Using Github API v3, added relevant methods in controller and routes to:
     * [fork](https://developer.github.com/v3/repos/forks/#create-a-fork) [ReproNim/ni-terms](https://github.com/ReproNim/ni-terms) repository to user github account
     * [create a file](https://developer.github.com/v3/repos/contents/#create-a-file) in the forked repo and push the curated form (NDA data model) into the file with a default commit message.
-    * [create a pull request] (https://developer.github.com/v3/pulls/#create-a-pull-request) from the forked repo
+    * [create a pull request](https://developer.github.com/v3/pulls/#create-a-pull-request) from the forked repo
     * [get the curated data dictionaries list in the ni-terms repo](https://developer.github.com/v3/repos/contents/#get-contents) and updates the select drop down box with new curated files
     * get the content of the curated file selected, save it and populate the terms in the table for selection.
   * Made changes to the UI - added another select box select between NDA and Repronim Curated NDA forms
@@ -26,7 +67,7 @@
 * Merging data-dictionaries list from three sources (NDA, curated forms from github, local): Still trying to figure out the best way. This is related to the previous problem of assigning/versioning the curated forms. In addition, the forms from NDA has some extra fields which we didn't carried over to curated forms in the earlier implementation. So, some modification to model for the curated forms required
 * Conversion form edits to NDA model: To decide which field of a term can be carried over directly to the curated term and if a new term is added, how to assign ids and names.
 
-#### Who helped me ths week?
+#### Who helped me this week?
 
 #### Who did I help this week?
 
@@ -40,7 +81,7 @@
 * Enable Mathias to give me access to RedCap database
 
 #### What else did I do?
-* Learnig Javascript
+* Learning Javascript
 * Vacation (2nd Oct 2017)
 
 ### Date: 29th September 2017
