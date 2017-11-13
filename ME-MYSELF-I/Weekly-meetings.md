@@ -1,4 +1,5 @@
 # Weekly Meetings
+* [10th November 2017](#date-10th-november-2017)
 * [3rd November 2017](#date-3rd-november-2017)
 * [27th October 2017](#date-27th-october-2017)
 * [20th October 2017](#date-20th-october-2017)
@@ -7,6 +8,35 @@
 * [29th September 2017](#date-29th-september-2017)
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
+
+### Date 10th November 2017
+* [Experiment planner](https://github.com/smpadhy/brainverse/tree/feature-kanban-board): Finished on the following features:
+  * UI Integration with backend
+  * Autosave
+  * Display project lists
+  * upload an existing plan
+  * Conversion between kanban board data model and data model for serialization to ttl
+  * Confirm delete action before actual delete both for column and item
+  * Item move
+  * Fixed userlogin error when no user is assigned
+* Created a pull request https://github.com/ReproNim/brainverse/pull/97  after testing several workflow paths for the project plan
+
+### What did I struggle with?
+
+### Who helped me this week?
+
+### Where do I need help from Satra?
+* Review of pull request for experiment Planner
+
+### Who did I help this week?
+
+### What would I like to work on next week?
+* Experiment planner - add participant nodes, data collection feature
+* Travis Setup for BrainVerse
+* BrainVerse Documentation
+
+### What else did I do?
+* Sick Leave on 6th November (Monday)
 
 ### Date 3rd November 2017
 #### What did I achieve?
