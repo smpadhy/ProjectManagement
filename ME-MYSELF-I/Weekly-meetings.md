@@ -1,4 +1,5 @@
 # Weekly Meetings
+* [17th November 2017](#date-17th-november-2017)
 * [10th November 2017](#date-10th-november-2017)
 * [3rd November 2017](#date-3rd-november-2017)
 * [27th October 2017](#date-27th-october-2017)
@@ -9,7 +10,35 @@
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
 
+### Date 17th November 2017
+
+#### What did I achieve?
+* Started working on model to add participants to project planner module. Posted issues for discussion in BrainVerse github
+* Started working on instrument editor module
+* Learned TravisCI configuration for github and added setup for Brainverse
+* Meeting with Satra
+* Started working on the project report
+
+#### What did I struggle with?
+* Setting up TravisCI configuration - passing environment variables and setting up .travis.yml file.
+* NIDM-E model for participants and execution of project Planner
+
+#### Who helped me this week?
+* Karl, Satra answered my questions on NIDM-E model for participant and execution of project planner.
+
+#### Who did I help this week?
+None
+
+#### Where did I need help from Satra?
+* Review of pull request for experiment planner
+
+#### What would I like to work on next week?
+* Project report
+* Instrument Editor
+
 ### Date 10th November 2017
+
+#### What did I achieve?
 * [Experiment planner](https://github.com/smpadhy/brainverse/tree/feature-kanban-board): Finished on the following features:
   * UI Integration with backend
   * Autosave
@@ -21,24 +50,24 @@
   * Fixed userlogin error when no user is assigned
 * Created a pull request https://github.com/ReproNim/brainverse/pull/97  after testing several workflow paths for the project plan
 
-### What did I struggle with?
+#### What did I struggle with?
 
-### Who helped me this week?
+#### Who helped me this week?
 
-### Where do I need help from Satra?
+#### Where do I need help from Satra?
 * Review of pull request for experiment Planner
 
-### Who did I help this week?
+#### Who did I help this week?
 
-### What would I like to work on next week?
+#### What would I like to work on next week?
 * Experiment planner - add participant nodes, data collection feature
 * Travis Setup for BrainVerse
 * BrainVerse Documentation
 
-### What else did I do?
+#### What else did I do?
 * Sick Leave on 6th November (Monday)
 
-### Date 3rd November 2017
+#### Date 3rd November 2017
 #### What did I achieve?
 * [Experiment planner](https://github.com/smpadhy/brainverse/tree/feature-kanban-board): Worked on the following features
   * UI Integration with backend
