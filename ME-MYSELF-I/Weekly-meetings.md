@@ -1,5 +1,5 @@
 # Weekly Meetings
-
+* [27th October 2017](#date-27th-october-2017)
 * [20th October 2017](#date-20th-october-2017)
 * [13th October 2017](#date-13th-october-2017)
 * [6th October 2017](#date-6th-october-2017)
@@ -7,7 +7,43 @@
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
 
-### Date; 20th October 2017
+### Date 27th October 2017
+#### what did I achieve?
+* [Experiment planner](https://github.com/smpadhy/brainverse/tree/feature-kanban-board): Features Implemented
+  * Column Delete
+  * Item Delete
+  * Item Edit
+  * Check for unique column name (session name) while adding new column
+* NDA Editor
+  * Added source URL support to import the NDA formated data dictionary from github
+  * Found and fixed few bugs while testing the modules mostly on preserving NDA format
+* Meeting with Satra
+* Meeting for NDA discussion
+* Created and Sent a Survey to Gablab to get intruments information
+
+#### What did I struggle with?
+* Unique file name/ versioning of NDA curated form
+
+#### Who helped me this week?
+* Satra provided feedback on the Experiment planner
+* Had discussion with Satra on preparation for NDA meeting
+* Recieved several responses to the survey.
+
+#### What would I like to work on next week?
+* Experiment planner
+  * Integrating UI with the backend
+  * Add participant nodes
+  * Refinements
+  * check and confirm delete
+  * Restore action
+
+#### Where do I need help from Satra?
+* Review of Experiment planner developed so far
+
+#### What else did I do?
+* Video lectures on Supervised Machine Learning
+
+### Date 20th October 2017
 #### What did I achieve?
 * [Experiment planner](https://github.com/smpadhy/brainverse/tree/feature-kanban-board): Features implemented
   * Edit column header
