@@ -1,4 +1,5 @@
 # Weekly Meetings
+* [3rd November 2017](#date-3rd-november-2017)
 * [27th October 2017](#date-27th-october-2017)
 * [20th October 2017](#date-20th-october-2017)
 * [13th October 2017](#date-13th-october-2017)
@@ -6,6 +7,35 @@
 * [29th September 2017](#date-29th-september-2017)
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
+
+### Date 3rd November 2017
+#### What did I achieve?
+* [Experiment planner](https://github.com/smpadhy/brainverse/tree/feature-kanban-board): Worked on the following features
+  * UI Integration with backend
+  * Logging each event for restore
+  * Autosave
+* Added build directory with app icon and packaged app with Electron Builder
+* Saving the user data outside BrainVerse App
+* Converted ReproNim logo to icon and added it as brand icon to Brainverse
+* Implemented - open external links in the Brainverse app in the Browser
+* NDA Editor
+  * Fixed Copy & Paste of URL which didn't work after packaging
+  * Prepared Detailed Slides for the NDA Editor
+* ReproNim training meeting
+
+#### What did I struggle with?
+* Travis configuration to build Brainverse. Specifically, passing github secretKey and ClientID.
+* Logging the state of the Kanban board after each action. Currently, I am saving the objects  into the localStorage. However, to keep the history of the actions in the persistent storage needs more investigation of embedded storage in Electron Framework. For example, NeDB, file storage. The challenge is also the representation of the log and the nested object.
+* Autosave feature. Currently, I am saving the change to the Kanban board on each action serialized to turtle file. This creates large number of files. So, we need something smart that would not trigger autosave so often but save all the changes.
+
+#### Who helped me this week?
+* Satra with the Travis setup
+
+#### Where do I need help from Satra?
+* Review of Experiment Planner developed so far
+
+#### What else did I do?
+
 
 ### Date 27th October 2017
 #### what did I achieve?
