@@ -1,4 +1,5 @@
 # Weekly Meetings
+* [24th November 2017](#date-24th-november-2017)
 * [17th November 2017](#date-17th-november-2017)
 * [10th November 2017](#date-10th-november-2017)
 * [3rd November 2017](#date-3rd-november-2017)
@@ -9,6 +10,33 @@
 * [29th September 2017](#date-29th-september-2017)
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
+
+### Date 24th November 2017
+
+#### What did I achieve?
+* Updating experiment planner branch pull request to include travis config file but ran into some other issues
+* Writing annual progress report but got stuck due to the issue ran in updating the experiment planner branch
+* continue working on instrument editor module
+* Had NIDM meeting and meeting with Karl and Camille on NIDM-E
+
+#### What did I struggle with?
+* While updating experiment planner branch, I ran into the issue in which jquery-select2 package is not being loaded and showing the error $().selec2 not a function. It seems while setting up electron-builder and yarn, I required to update NodeJs and npm for it to work and that changed some environment setup changed. Now, the app runs in the web browser but as desktop app, shows select2 error. I am getting this error also with NDA editor module as well. That is why I suspect it is environment setup change with new NodeJS. After trying many solutions without success, I posted the issue to [stackoverflow](https://stackoverflow.com/questions/47488683/integrating-jquery-select2-with-electron-framework), electron slack channel, [select2 forum](https://forums.select2.org/t/electron-integrating-select2-within-electron-framework/70).
+
+#### Who helped me this week?
+None
+
+#### Who did I help this week?
+None
+
+#### Where did I need help from Satra?
+
+#### What would I like to work on next week?
+* Fix the issue with select2. Planning to create a docker container and try to run BrainVerse
+* Instrument editor
+* Progress report
+
+##### What else did I do?
+* Thanksgiving holiday(23rd-24th)
 
 ### Date 17th November 2017
 
