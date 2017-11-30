@@ -1,9 +1,43 @@
 # Weekly Meetings
+
+* [20th October 2017](#date-20th-october-2017)
 * [13th October 2017](#date-13th-october-2017)
 * [6th October 2017](#date-6th-october-2017)
 * [29th September 2017](#date-29th-september-2017)
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
+
+### Date; 20th October 2017
+#### What did I achieve?
+* [Experiment planner](https://github.com/smpadhy/brainverse/tree/feature-kanban-board): Features implemented
+  * Edit column header
+  * Control for 'add item'
+  * Automatic generation of form for each item add click with a Modal popup
+  * Updated form generation module for input form
+  * 'Assignee' field integrated with github users api
+  * Template for item card
+  * Item card add implemented
+* SOBP abstract submission
+* NIDM, ReproNim Training meeting
+
+#### What did i struggle with?
+* SOBP abstract - understanding the brainverse use case
+* Typeahead feature for Assignee field while integrated with github users within alpaca form.
+* Refreshing the alpaca view and kanban view after update/edit
+
+#### Who help me this week?
+* David and Satra on the SOBP abstract
+
+#### Who did I help ths week
+
+#### What would I like to work on next week?
+* Experiment Planner - Column delete, Item Edits, Item delete, Item move
+* REDCap to NDA Importer test
+
+#### Where do I need help from Satra
+* Review of implemented feature
+
+#### What else did I do?
 
 ### Date: 13th October 2017
 #### What did I achieve?
