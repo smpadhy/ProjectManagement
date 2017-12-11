@@ -1,4 +1,5 @@
 # Weekly Meetings
+* [1st December 2017](#date-1st-december-2017)
 * [24th November 2017](#date-24th-november-2017)
 * [17th November 2017](#date-17th-november-2017)
 * [10th November 2017](#date-10th-november-2017)
@@ -10,6 +11,33 @@
 * [29th September 2017](#date-29th-september-2017)
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
+
+### Date 1st December 2017
+
+#### What did I achieve?
+* Fixed the issue with select2. Tried different version of select2. Only 4.0.3 works. It was confirmed by one of the the select2 team members that due to some change in UMDJS package, select2 version > 4.0.3 is giving that error. So, in my package.json I changed changed the version to 4.0.3. Also, learnt about the semantics used by npm in package.json to manage updates for the dependencies that are downloaded/installed.
+* Updated the feature-kaban-board branch pull request and subsequently merged
+* Completed Brainverse Year 2 annual report
+* Updated README.md
+* Added CONTRIBUTING.md doc with guidelines to contributing to brainverse
+* Initial instrument editor with options to create instrument with name and description
+* Had NIDM and meeting with Karl on NIDM-E
+
+#### What did I struggle with?
+* Fixing select2 issue and understanding the semantics of package.json
+
+#### Who helped me this week?
+None
+
+#### Who did I help this week?
+None
+
+### Where did I need help from Satra?
+* Reviewing pull request and annual report
+
+### What would I like to work on next week?
+* Instrument editor
+* OHBM abstract
 
 ### Date 24th November 2017
 
