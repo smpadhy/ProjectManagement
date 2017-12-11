@@ -1,4 +1,5 @@
 # Weekly Meetings
+* [8th December 2017](#date-8th-december-2017)
 * [1st December 2017](#date-1st-december-2017)
 * [24th November 2017](#date-24th-november-2017)
 * [17th November 2017](#date-17th-november-2017)
@@ -11,6 +12,26 @@
 * [29th September 2017](#date-29th-september-2017)
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
+
+#### Date 8th December 2017
+#### What did I achieve?
+* Instrument editor features completed - Listing instruments, create instrument, save instrument in local file storage, update designer interface,rest endpoints for new instrument POST and GET method. Still refining on the data models for instrument and alpaca form
+* Started reviewing RedCap and OpenClinica for OHBM abstract
+* Had NIDM Meeting
+
+#### What did I struggle with?
+* Designing data model for Alpaca form and instrument. Currently, I am following very closely NDA data model.
+
+#### Who helped me this week?
+
+#### Who did I help this week?
+
+#### Where did I need help from Satra?
+* Reviewing data models and OHBM abstract
+
+#### What would I like to work on next week?
+* Instrument editor - complete and release it with experiment planner module
+* OHBM abstract
 
 ### Date 1st December 2017
 
