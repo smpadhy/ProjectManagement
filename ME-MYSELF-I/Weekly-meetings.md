@@ -18,7 +18,7 @@
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
 
-#### Date 12th January 2017
+#### Date 12th January 2018
 #### What did I achieve?
 * Participated in EAB meetings
 * Had meeting with Satra, Chris
@@ -34,7 +34,7 @@
 #### What would I like to work on next week?
 * Code Rodeo
 
-#### Date 5th January 2017
+#### Date 5th January 2018
 #### What did I achieve?
 * Finished Data collection module -- lots of features implemented and fixed bugs
 * Prepared Slides for EAB meeting
