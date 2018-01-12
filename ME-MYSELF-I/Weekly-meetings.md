@@ -1,4 +1,9 @@
 # Weekly Meetings
+* [12th Januray 2018](#date-12th-january-2018)
+* [5th January 2018](#date-5th-january-2018)
+* [29th Decmber 2017](#date-29th-december-2017)
+* [22nd December 2017](#date-22nd-december-2017)
+* [15th December 2017](#date-15th-december-2017)
 * [8th December 2017](#date-8th-december-2017)
 * [1st December 2017](#date-1st-december-2017)
 * [24th November 2017](#date-24th-november-2017)
@@ -13,6 +18,84 @@
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
 
+#### Date 12th January 2017
+#### What did I achieve?
+* Participated in EAB meetings
+* Had meeting with Satra, Chris
+* Fixed few features of data collection modules
+* Worked on Projet Ideas and BrainVerse next steps
+
+#### What did I struggle with?
+
+#### Who helped me this week?
+* Discussion with Satra on BrainVerse next Steps
+#### Where did I need help from Satra?
+* Pull request review
+#### What would I like to work on next week?
+* Code Rodeo
+
+#### Date 5th January 2017
+#### What did I achieve?
+* Finished Data collection module -- lots of features implemented and fixed bugs
+* Prepared Slides for EAB meeting
+* Participated in the EAB practice session
+* Created demo videos
+#### What did I struggle with?
+#### Who helped me this week?
+#### Where did I need help from Satra?
+* Pull requests for BrainVerse
+#### What would I like to work on next week?
+* BrainVerse Next steps
+* Project Ideas
+#### Date 29th December 2017
+#### What did I achieve?
+* Started Working on data collection modules and finished few features
+
+#### What did I struggle with?
+
+#### Who helped me this week?
+
+#### Where did I need help from Satra?
+* Pull request review
+#### What would I like to work on next week?
+* Data collection module
+
+#### Date 22nd December 2017
+#### What did I achieve?
+* Submitted OHBM abstract
+* Finished Instrument editor - Added new routes, updated form generation and form builder,fixed few bugs, added feature to push instruments to GiHub
+* Had NIDM meeting, Terms Hackthon meetings with Dave,Jeff, Karl
+
+#### What did I struggle with?
+#### Who helped me this week?
+* JB reviewed OHBM abstract
+#### Where did I need help from Satra?
+* Reviewing pull request
+#### What would I like to work on next week?
+* Data collection module
+
+#### Date 15th December 2017
+
+#### What did I achieve?
+* Wrote OHBM Abstract and sent it to the repronim and nidm mailing list for review
+* Instrument Editor Features - data model conversions, serialization for file storage
+* Had NIDM, Repronim Training meeting
+* Meeting with Satra
+
+#### What did I struggle with?
+* data models and conversion
+#### Who helped me this week?
+* Satra reviewed OHBM abstract
+* Discussion with Satra on data models for instrument editor and decided to go for alpaca data model
+
+#### Who did I help this week?
+
+#### Where did I need help from Satra?
+* Reviewing of Instrument editor
+
+#### What would I like to work on next week?
+* Instrument editor
+* Submission of OHBM abstract
 #### Date 8th December 2017
 #### What did I achieve?
 * Instrument editor features completed - Listing instruments, create instrument, save instrument in local file storage, update designer interface,rest endpoints for new instrument POST and GET method. Still refining on the data models for instrument and alpaca form
