@@ -15,6 +15,19 @@
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
 
+#### Date 5th Januray 2017
+#### What did I achieve?
+* Finished Data collection module -- lots of features implemented and fixed bugs
+* Prepared Slides for EAB meeting
+* Participated in the EAB practice session
+* Created demo videos
+#### What did I struggle with?
+#### Who helped me this week?
+#### Where did I need help from Satra?
+* Pull requests for BrainVerse
+#### What would I like to work on next week?
+* BrainVerse Next steps
+* Project Ideas
 #### Date 29th December 2017
 #### What did I achieve?
 * Started Working on data collection modules and finished few features
