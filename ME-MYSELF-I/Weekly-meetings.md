@@ -1,4 +1,5 @@
 # Weekly Meetings
+* [15th December 2017](#date-15th-december-2017)
 * [8th December 2017](#date-8th-december-2017)
 * [1st December 2017](#date-1st-december-2017)
 * [24th November 2017](#date-24th-november-2017)
@@ -13,6 +14,29 @@
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
 
+
+#### Date 15th December 2017
+
+#### What did I achieve?
+* OHBM Abstract
+* Instrument Editor Features - data model conversions, serialization for file storage
+* Had NIDM, Repronim Training meeting
+* Meeting with Satra
+
+#### What did I struggle with?
+* data models and conversion
+#### Who helped me this week?
+* Satra reviewed OHBM abstract
+* Discussion with Satra on data models for instrument editor and decided to go for alpaca data model
+
+#### Who did I help this week?
+
+#### Where did I need help from Satra?
+* Reviewing of Instrument editor
+
+#### What would I like to work on next week?
+* Instrument editor
+* Submission of OHBM abstract
 #### Date 8th December 2017
 #### What did I achieve?
 * Instrument editor features completed - Listing instruments, create instrument, save instrument in local file storage, update designer interface,rest endpoints for new instrument POST and GET method. Still refining on the data models for instrument and alpaca form
