@@ -1,4 +1,7 @@
 # Weekly Meetings
+* [12th Januray 2018](#date-12th-january-2018)
+* [5th January 2018](#date-5th-january-2018)
+* [29th Decmber 2017](#date-29th-december-2017)
 * [22nd December 2017](#date-22nd-december-2017)
 * [15th December 2017](#date-15th-december-2017)
 * [8th December 2017](#date-8th-december-2017)
@@ -15,7 +18,23 @@
 * [22nd September 2017](#date-22nd-september-2017)
 * [14th September 2017](#date-14th-september-2017)
 
-#### Date 5th Januray 2017
+#### Date 12th January 2017
+#### What did I achieve?
+* Participated in EAB meetings
+* Had meeting with Satra, Chris
+* Fixed few features of data collection modules
+* Worked on Projet Ideas and BrainVerse next steps
+
+#### What did I struggle with?
+
+#### Who helped me this week?
+* Discussion with Satra on BrainVerse next Steps
+#### Where did I need help from Satra?
+* Pull request review
+#### What would I like to work on next week?
+* Code Rodeo
+
+#### Date 5th January 2017
 #### What did I achieve?
 * Finished Data collection module -- lots of features implemented and fixed bugs
 * Prepared Slides for EAB meeting
