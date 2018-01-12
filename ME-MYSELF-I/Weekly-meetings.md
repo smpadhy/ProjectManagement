@@ -1,4 +1,5 @@
 # Weekly Meetings
+* [22nd December 2017](#date-22nd-december-2017)
 * [15th December 2017](#date-15th-december-2017)
 * [8th December 2017](#date-8th-december-2017)
 * [1st December 2017](#date-1st-december-2017)
@@ -15,10 +16,24 @@
 * [14th September 2017](#date-14th-september-2017)
 
 
+#### Date 22nd December 2017
+#### What did I achieve?
+* Submitted OHBM abstract
+* Finished Instrument editor - Added new routes, updated form generation and form builder,fixed few bugs, added feature to push instruments to GiHub
+* Had NIDM meeting, Terms Hackthon meetings with Dave,Jeff, Karl
+
+#### What did I struggle with?
+#### Who helped me this week?
+* JB reviewed OHBM abstract
+#### Where did I need help from Satra?
+* Reviewing pull request
+#### What would I like to work on next week?
+* Data collection module
+
 #### Date 15th December 2017
 
 #### What did I achieve?
-* OHBM Abstract
+* Wrote OHBM Abstract and sent it to the repronim and nidm mailing list for review
 * Instrument Editor Features - data model conversions, serialization for file storage
 * Had NIDM, Repronim Training meeting
 * Meeting with Satra
